@@ -1,0 +1,22 @@
+{
+  "name": "p3_pulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timur3030/pulse.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timur3030/pulse/issues"
+  },
+  "homepage": "https://github.com/timur3030/pulse#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
