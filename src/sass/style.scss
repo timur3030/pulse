@@ -1,5 +1,16 @@
 @import "base/variables";
 
-h1 {
-  color: $main-color;
+body {
+  font-family: "Museo", sans-serif;
+}
+
+.container {
+  max-width: 950px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.promo {
+  min-height: 650px;
+  background: url("../img/bg.jpg") center center/ cover no-repeat;
 }
