@@ -28,4 +28,12 @@
     text-align: center;
     color: #0d0d0d;
   }
+  &__icon {
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
 }
