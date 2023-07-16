@@ -1,0 +1,141 @@
+@media (min-width: 1441px) {
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .container {
+    max-width: 950px;
+  }
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+  .advantages {
+    &__descr {
+      padding: 10px;
+    }
+  }
+  .carousel {
+    padding-bottom: 130px;
+    .slick-prev,
+    .slick-next {
+      top: 100%;
+      transform: translateY(20px);
+    }
+    .slick-prev {
+      left: 30%;
+    }
+    .slick-next {
+      right: 30%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .header {
+    &__phone {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 40px;
+    }
+    &__item {
+      margin-top: 30px;
+    }
+  }
+  .carousel {
+    &__inner {
+      width: 100%;
+    }
+  }
+  .catalog {
+    &__content {
+      justify-content: center;
+    }
+  }
+  .reviews-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &__title {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+  .header {
+    flex-direction: column;
+    &__official {
+      display: none;
+    }
+    &__contacts {
+      margin-top: 20px;
+    }
+  }
+  .promo {
+    &__wrapper {
+      align-items: center;
+      text-align: center;
+    }
+    &__header {
+      font-size: 32px;
+    }
+    &__icons {
+      margin: 40px auto 0;
+      flex-direction: column;
+      align-items: center;
+      max-width: 100%;
+    }
+  }
+  .consultation {
+    padding: 50px 0;
+    .feed-form {
+      width: 100%;
+    }
+  }
+  .catalog {
+    &__tabs {
+      margin-top: 40px;
+      flex-direction: column;
+    }
+    &__tab {
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+    &__content {
+      margin-top: 40px;
+    }
+  }
+  .footer {
+    &__info {
+      width: 100%;
+    }
+  }
+  .title_left {
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .button_main {
+    width: 100%;
+  }
+}
